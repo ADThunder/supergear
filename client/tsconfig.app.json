@@ -23,5 +23,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src","config.ts"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "config.ts" // Thêm dòng này
+  ]
 }

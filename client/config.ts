@@ -1,7 +1,9 @@
 interface Config {
   baseUrl: string;
 }
+// eslint-disable-next-line @typescript-eslint/ban-types
 const checkConfig = (server: string): Config | {} => {
+  // eslint-disable-next-line @typescript-eslint/ban-types
   let config: Config | {} = {};
   switch (server) {
     case "production":
